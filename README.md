@@ -9,6 +9,7 @@ This project is done by Real World Evidence-Lab.
 
 Classifier.py creates and evaluvates automl models
 ShortScript.py creates and evaluvates automl models with least number of line of codes
+StandardModels.py creates n-gram based classification models and provides performance evaluvation
 
 **Download**
 
