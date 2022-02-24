@@ -22,7 +22,7 @@ python3 -m pip install -U pip <br />
 python3 -m pip install -U setuptools wheel <br />
 
 *Here we assume CUDA 10.1 is installed.  You should change the number <br />
-*according to your own CUDA version (e.g. mxnet_cu100 for CUDA 10.0). <br />
+*according to your own CUDA version (e.g. mxnet_cu100 for CUDA 10.0). <br /> <br />
 python3 -m pip install -U "mxnet_cu101<2.0.0" <br />
 python3 -m pip install autogluon <br />
 
@@ -41,7 +41,7 @@ python3 -m pip install -U pip <br />
 python3 -m pip install -U setuptools wheel <br />
 
 *Here we assume CUDA 10.1 is installed.  You should change the number <br />
-*according to your own CUDA version (e.g. mxnet_cu102 for CUDA 10.2). <br />
+*according to your own CUDA version (e.g. mxnet_cu102 for CUDA 10.2). <br /> <br />
 python3 -m pip install -U "mxnet_cu101<2.0.0" <br />
 git clone https://github.com/awslabs/autogluon <br />
 cd autogluon && ./full_install.sh <br />
