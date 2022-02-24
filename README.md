@@ -1,15 +1,15 @@
 #Mayo Classifier
 
 
-This repository provides the code for creating classification models for clinical text based on mayo scores.
-For a more detailed reference please refer to our paper "Accurate, Robust, and Scalable Machine Abstraction of Mayo Endoscopic Subscores from Colonoscopy Reports". 
+This repository provides the code for creating classification models for clinical text based on mayo scores. <br />
+For a more detailed reference please refer to our paper "Accurate, Robust, and Scalable Machine Abstraction of Mayo Endoscopic Subscores from Colonoscopy Reports". <br /> 
 This project is done by Real World Evidence-Lab.
 
 Download
 
-The autoML package that is cutomised for the current study is from AutoGluon
+The autoML package that is cutomised for the current study is from AutoGluon <br />
 
-AutoGluon enables easy-to-use and easy-to-extend AutoML with a focus on automated stack ensembling, deep learning, and real-world applications spanning text, image, and tabular data
+AutoGluon enables easy-to-use and easy-to-extend AutoML with a focus on automated stack ensembling, deep learning, and real-world applications spanning text, image, and tabular data <br />
 
 More details can be found at https://auto.gluon.ai/stable/index.html
 
