@@ -18,30 +18,30 @@ Installation
 
 1. GPU Version on Linux system with PIP
 
-python3 -m pip install -U pip
-python3 -m pip install -U setuptools wheel
+python3 -m pip install -U pip <br />
+python3 -m pip install -U setuptools wheel <br />
 
-*Here we assume CUDA 10.1 is installed.  You should change the number
-*according to your own CUDA version (e.g. mxnet_cu100 for CUDA 10.0).
-python3 -m pip install -U "mxnet_cu101<2.0.0"
-python3 -m pip install autogluon
+*Here we assume CUDA 10.1 is installed.  You should change the number <br />
+*according to your own CUDA version (e.g. mxnet_cu100 for CUDA 10.0). <br />
+python3 -m pip install -U "mxnet_cu101<2.0.0" <br />
+python3 -m pip install autogluon <br />
 
 
 2. CPU Version on Linux system with PIP
 
-python3 -m pip install -U pip
-python3 -m pip install -U setuptools wheel
-python3 -m pip install -U "mxnet<2.0.0"
-python3 -m pip install autogluon
+python3 -m pip install -U pip <br />
+python3 -m pip install -U setuptools wheel <br />
+python3 -m pip install -U "mxnet<2.0.0" <br />
+python3 -m pip install autogluon <br />
 
 
 3. GPU Version on Linux system from Source
 
-python3 -m pip install -U pip
-python3 -m pip install -U setuptools wheel
+python3 -m pip install -U pip <br />
+python3 -m pip install -U setuptools wheel <br />
 
-*Here we assume CUDA 10.1 is installed.  You should change the number
-*according to your own CUDA version (e.g. mxnet_cu102 for CUDA 10.2).
-python3 -m pip install -U "mxnet_cu101<2.0.0"
-git clone https://github.com/awslabs/autogluon
-cd autogluon && ./full_install.sh
+*Here we assume CUDA 10.1 is installed.  You should change the number <br />
+*according to your own CUDA version (e.g. mxnet_cu102 for CUDA 10.2). <br />
+python3 -m pip install -U "mxnet_cu101<2.0.0" <br />
+git clone https://github.com/awslabs/autogluon <br />
+cd autogluon && ./full_install.sh <br />
