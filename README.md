@@ -1,11 +1,11 @@
-#Mayo Classifier
+**Mayo Classifier**
 
 
 This repository provides the code for creating classification models for clinical text based on mayo scores. <br />
 For a more detailed reference please refer to our paper "Accurate, Robust, and Scalable Machine Abstraction of Mayo Endoscopic Subscores from Colonoscopy Reports". <br /> 
 This project is done by Real World Evidence-Lab.
 
-Download
+**Download**
 
 The autoML package that is cutomised for the current study is from AutoGluon <br />
 
@@ -14,34 +14,34 @@ AutoGluon enables easy-to-use and easy-to-extend AutoML with a focus on automate
 More details can be found at https://auto.gluon.ai/stable/index.html
 
 
-Installation
+**Installation**
 
 1. GPU Version on Linux system with PIP
 
-python3 -m pip install -U pip <br />
-python3 -m pip install -U setuptools wheel <br />
+_python3 -m pip install -U pip <br />
+python3 -m pip install -U setuptools wheel <br />_
 
 *Here we assume CUDA 10.1 is installed.  You should change the number <br />
 *according to your own CUDA version (e.g. mxnet_cu100 for CUDA 10.0). <br /> <br />
-python3 -m pip install -U "mxnet_cu101<2.0.0" <br />
+_python3 -m pip install -U "mxnet_cu101<2.0.0" <br />
 python3 -m pip install autogluon <br />
-
+_
 
 2. CPU Version on Linux system with PIP
 
-python3 -m pip install -U pip <br />
+_python3 -m pip install -U pip <br />
 python3 -m pip install -U setuptools wheel <br />
 python3 -m pip install -U "mxnet<2.0.0" <br />
-python3 -m pip install autogluon <br />
+python3 -m pip install autogluon <br />_
 
 
 3. GPU Version on Linux system from Source
 
-python3 -m pip install -U pip <br />
-python3 -m pip install -U setuptools wheel <br />
+_python3 -m pip install -U pip <br />
+python3 -m pip install -U setuptools wheel <br />_
 
 *Here we assume CUDA 10.1 is installed.  You should change the number <br />
 *according to your own CUDA version (e.g. mxnet_cu102 for CUDA 10.2). <br /> <br />
-python3 -m pip install -U "mxnet_cu101<2.0.0" <br />
+_python3 -m pip install -U "mxnet_cu101<2.0.0" <br />
 git clone https://github.com/awslabs/autogluon <br />
-cd autogluon && ./full_install.sh <br />
+cd autogluon && ./full_install.sh <br />_
