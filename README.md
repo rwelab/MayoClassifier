@@ -1,4 +1,4 @@
-**Mayo Classifer**
+**Mayo Classifier**
 
 
 This repository provides the code for creating classification models for clinical text based on mayo scores.
