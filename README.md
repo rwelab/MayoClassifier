@@ -5,6 +5,11 @@ This repository provides the code for creating classification models for clinica
 For a more detailed reference please refer to our paper "Accurate, Robust, and Scalable Machine Abstraction of Mayo Endoscopic Subscores from Colonoscopy Reports". <br /> 
 This project is done by Real World Evidence-Lab.
 
+**Files**
+
+Classifier.py creates and evaluvates automl models
+ShortScript.py creates and evaluvates automl models with least number of line of codes
+
 **Download**
 
 The autoML package that is cutomised for the current study is from AutoGluon <br />
