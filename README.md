@@ -1,4 +1,4 @@
-**Mayo Classifier**
+#Mayo Classifier
 
 
 This repository provides the code for creating classification models for clinical text based on mayo scores.
@@ -21,8 +21,8 @@ Installation
 python3 -m pip install -U pip
 python3 -m pip install -U setuptools wheel
 
-# Here we assume CUDA 10.1 is installed.  You should change the number
-# according to your own CUDA version (e.g. mxnet_cu100 for CUDA 10.0).
+*Here we assume CUDA 10.1 is installed.  You should change the number
+*according to your own CUDA version (e.g. mxnet_cu100 for CUDA 10.0).
 python3 -m pip install -U "mxnet_cu101<2.0.0"
 python3 -m pip install autogluon
 
@@ -40,8 +40,8 @@ python3 -m pip install autogluon
 python3 -m pip install -U pip
 python3 -m pip install -U setuptools wheel
 
-# Here we assume CUDA 10.1 is installed.  You should change the number
-# according to your own CUDA version (e.g. mxnet_cu102 for CUDA 10.2).
+*Here we assume CUDA 10.1 is installed.  You should change the number
+*according to your own CUDA version (e.g. mxnet_cu102 for CUDA 10.2).
 python3 -m pip install -U "mxnet_cu101<2.0.0"
 git clone https://github.com/awslabs/autogluon
 cd autogluon && ./full_install.sh
