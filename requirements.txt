@@ -1,0 +1,11 @@
+autogluon==0.7.0
+autogluon.common==0.7.0
+autogluon.core==0.7.0
+autogluon.features==0.7.0
+autogluon.multimodal==0.7.0
+autogluon.tabular==0.7.0
+autogluon.timeseries==0.7.0
+mxnet==1.9.1
+numpy==1.24.4
+pandas==1.5.3
+scikit-learn==1.2.2
